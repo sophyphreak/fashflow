@@ -1,0 +1,17 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./apps/web" },
+    { "path": "./apps/extension" },
+    { "path": "./packages/shared" }
+  ],
+  "compilerOptions": {
+    "composite": true,
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "target": "ES2021",
+    "lib": ["es2021", "dom"],
+    "strict": true
+  }
+}
+
